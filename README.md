@@ -1,6 +1,7 @@
-# npmtest-grunt-photobox [![npm package](https://img.shields.io/npm/v/npmtest-grunt-photobox.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-photobox) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-photobox.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-photobox)
+# npmtest-grunt-photobox
 
-test coverage for  [grunt-photobox (v0.9.0)](https://github.com/stefanjudis/grunt-photoBox)
+#### basic test coverage for  [grunt-photobox (v0.9.0)](https://github.com/stefanjudis/grunt-photoBox)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-photobox.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-photobox) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-photobox.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-photobox)
+
 #### Plugin to prevent your project of broken layout via screenshot photo sessions of your site.
 
 [![NPM](https://nodei.co/npm/grunt-photobox.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-photobox)
@@ -9,7 +10,7 @@ test coverage for  [grunt-photobox (v0.9.0)](https://github.com/stefanjudis/grun
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-photobox/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-photobox/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-photobox/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-photobox/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-photobox/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-photobox/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-photobox/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-photobox/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-photobox/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-photobox/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-photobox/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-photobox/build/coverage.html/index.html)
 
@@ -99,7 +100,8 @@ test coverage for  [grunt-photobox (v0.9.0)](https://github.com/stefanjudis/grun
     "scripts": {
         "test": "grunt test"
     },
-    "version": "0.9.0"
+    "version": "0.9.0",
+    "bin": {}
 }
 ```
 
